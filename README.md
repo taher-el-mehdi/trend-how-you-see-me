@@ -1,5 +1,5 @@
-# How do you see me and how do I see her
-A fun web app that lets users upload images representing different aspects of their personality and preferences, then combines them into a single downloadable image.
+# How You See Me  
+Inspired by a popular TikTok challenge, this web app lets users create a collage based on how they see another person. Participants upload images in nine different categories—such as animal, plant, character, food, and place—then compile them into a single image.
 
 ## 🎯 Features
 - 📸 Upload 9 different images (Animal, Place, Plant, Personality, Season, Hobby, Color, Food, Drink)

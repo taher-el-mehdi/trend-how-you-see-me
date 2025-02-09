@@ -4,14 +4,14 @@ function generateImage() {
 
     const imageInputs = [
         document.getElementById("image3"),
-        document.getElementById("image1"),
         document.getElementById("image2"),
+        document.getElementById("image1"),
         document.getElementById("image6"),
-        document.getElementById("image4"),
         document.getElementById("image5"),
+        document.getElementById("image4"),
         document.getElementById("image9"),
-        document.getElementById("image7"),
-        document.getElementById("image8")
+        document.getElementById("image8"),
+        document.getElementById("image7")
     ];
 
     const size = 300; // Each image size
@@ -47,7 +47,7 @@ function drawImages(ctx, images, size) {
     const downloadLink = document.createElement('a');
     document.body.appendChild(downloadLink)
     downloadLink.href = document.querySelector("canvas").toDataURL("image/png");
-    downloadLink.download = "How_I_See_MySelf.png";
+    downloadLink.download = "trend-how-you-see-me.png";
     downloadLink.style.display = "block";
     downloadLink.click();
     downloadLink.remove();
