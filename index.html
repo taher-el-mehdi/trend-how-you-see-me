@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend How do you see me and how do I see her?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <h1>🔥كيف تشوفني وكيف أشوفها  📸</h1>
+        <table>
+            <tr>
+                <td>
+                    <label for="image1" class="file-upload">
+                        <span>🐾 حيوان</span>
+                        <input type="file" accept="image/*" id="image1" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+                <td>
+                    <label for="image2" class="file-upload">
+                        <span>🌍 مكان</span>
+                        <input type="file" accept="image/*" id="image2" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+                <td>
+                    <label for="image3" class="file-upload">
+                        <span>🌿 نبتة</span>
+                        <input type="file" accept="image/*" id="image3" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="image4" class="file-upload">
+                        <span>😆 شخصية</span>
+                        <input type="file" accept="image/*" id="image4" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+                <td>
+                    <label for="image5" class="file-upload">
+                        <span>☀️❄️ فصل</span>
+                        <input type="file" accept="image/*" id="image5" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+                <td>
+                    <label for="image6" class="file-upload">
+                        <span>🎭 هواية</span>
+                        <input type="file" accept="image/*" id="image6" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="image7" class="file-upload">
+                        <span>🎨 لون</span>
+                        <input type="file" accept="image/*" id="image7" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+                <td>
+                    <label for="image8" class="file-upload">
+                        <span>🍽️ أكلة</span>
+                        <input type="file" accept="image/*" id="image8" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+                <td>
+                    <label for="image9" class="file-upload">
+                        <span>🥤☕ مشروب</span>
+                        <input type="file" accept="image/*" id="image9" class="hidden-input">
+                        <div class="image-preview"></div>
+                    </label>
+                </td>
+            </tr>
+        </table>
+        <button onclick="generateImage()">حفظ الصورة</button>
+        <canvas style="display: none;"></canvas>
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>

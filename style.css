@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+}
+*{
+    font-family: 'Amiri', serif;
+    font-size: 18px;
+    direction: rtl; 
+    text-align: right;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hidden-input {
+    display: none;
+}
+
+.image-preview {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-preview.has-image {
+    border: 2px solid darkgreen;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
